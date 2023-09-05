@@ -1,0 +1,19 @@
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+    height: 500px;
+    overflow-y: scroll;
+
+    &__no-todos {
+        margin-top: 16px;
+    }
+}
+
+.error {
+    margin-top: 16px;
+
+    color: #FF2424;
+}
