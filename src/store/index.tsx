@@ -1,5 +1,5 @@
 import { makeAutoObservable, runInAction } from "mobx";
-import { ITodo } from "../App";
+import { ITodo } from "../types/todo.types";
 import axios from "axios";
 import { createContext, useContext } from "react";
 
